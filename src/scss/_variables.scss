@@ -1,0 +1,50 @@
+// @import url('https://fonts.cdnfonts.com/css/satoshi');
+
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../../build/fonts/fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('../../build/fonts/fonts/Satoshi-Regular.woff') format('woff'),
+         url('../../build/fonts/fonts/Satoshi-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Satoshi-Black';
+    src: url('../../build/fonts/fonts/Satoshi-Black.woff2') format('woff2'),
+         url('../../build/fonts/fonts/Satoshi-Black.woff') format('woff'),
+         url('../../build/fonts/fonts/Satoshi-Black.ttf') format('truetype');
+         font-weight: 900;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('../../build/fonts/fonts/Satoshi-Medium.woff2') format('woff2'),
+         url('../../build/fonts/fonts/Satoshi-Medium.woff') format('woff'),
+         url('../../build/fonts/fonts/Satoshi-Medium.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../../build/fonts/fonts/Satoshi-Bold.woff2') format('woff2'),
+         url('../../build/fonts/fonts/Satoshi-Bold.woff') format('woff'),
+         url('../../build/fonts/fonts/Satoshi-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+  }
+
+$brand-primary: #368DD3;
+$brand-primary-drak : #00122E;
+$text-color: #3f3f5c;
+$blue-bg: #DDECF8;
+$hero-bg: #ECF4FB;
+$white: #fff;
+$font-family:'Satoshi-Regular';
+$font-family-bold: 'Satoshi-Black';
+$font-family-medium: 'Satoshi-Medium';
